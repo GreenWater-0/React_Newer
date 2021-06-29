@@ -1,0 +1,18 @@
+@margin-top: 5px;
+@margin-bottom: @margin-top;
+
+.delBtn{
+  visibility: hidden;
+}
+
+.msg {
+  margin-top: @margin-top;
+  margin-bottom: @margin-bottom;
+  
+  &:hover {
+    .delBtn {
+      visibility: visible;
+    }
+    background-color: #feeeed;
+  }
+}

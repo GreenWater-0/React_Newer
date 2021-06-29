@@ -1,0 +1,12 @@
+/*
+  会进入css
+*/
+div {
+  background-color: aqua;
+}
+div h2 {
+  color: red;
+}
+div .hello {
+  color: blue;
+}

@@ -1,0 +1,13 @@
+.delBtn {
+  visibility: hidden;
+}
+.msg {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.msg:hover {
+  background-color: #feeeed;
+}
+.msg:hover .delBtn {
+  visibility: visible;
+}

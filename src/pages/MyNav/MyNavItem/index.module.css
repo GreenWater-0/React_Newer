@@ -1,0 +1,15 @@
+.iconBox {
+  min-width: 20px;
+  min-height: 20px;
+  width: 2rem;
+}
+.iconBox .icon {
+  border-radius: 30%;
+  width: 100%;
+  object-fit: contain;
+  transition: 0.3s;
+}
+.iconBox .icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

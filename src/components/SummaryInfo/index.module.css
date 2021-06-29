@@ -1,0 +1,17 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile {
+  margin: 10px;
+  width: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.alias {
+  opacity: 1;
+}
+.introduction {
+  opacity: 0.5;
+}
